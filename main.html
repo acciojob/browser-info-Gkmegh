@@ -7,7 +7,17 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	 <div id="browser-info"></div>
+
+    <script>
+        
+        var browserName = navigator.appName;
+        var version = navigator.appVersion;
+
+        // Display the browser information
+        var browserInfo = document.getElementById('browser-info');
+        browserInfo.textContent = "You are using " + browserName + " version " + version;
+    </script>
     <script type="text/javascript" src="./script.js">
 </script>
 
